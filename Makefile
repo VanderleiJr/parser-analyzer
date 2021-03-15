@@ -1,5 +1,5 @@
 # Projeto
-PROJETO=lexical-analyzer.out
+PROJETO=parser-analyzer.out
 
 # Compilador
 CC=g++ -std=c++11

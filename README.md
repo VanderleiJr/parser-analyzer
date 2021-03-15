@@ -55,9 +55,9 @@ ANTLR4
 		$ ls /usr/local/include/antlr4-runtime
 		```
 
-* Pode ser necessário a cópia de algumas bibliotecas para o seu sistema, elas estão na pasta "lexical-analyzer/lib/" (usuários Arch, podem utilizar ```pacman -S antlr4-runtime```).
+* Pode ser necessário a cópia de algumas bibliotecas para o seu sistema, elas estão na pasta "parser-analyzer/lib/" (usuários Arch, podem utilizar ```pacman -S antlr4-runtime```).
 	```
-	$ cp -r <lexical-analyzer>/lib /usr/local/lib/
+	$ cp -r <parser-analyzer>/lib /usr/local/lib/
 	```
 
 * Pronto, ANTLR4 instalado!
@@ -65,11 +65,11 @@ ANTLR4
 ### Compilando e Executando
 * Simples
 	```
-	$ cd <lexical-analyzer>
+	$ cd <parser-analyzer>
 	$ make all
 	```
 
 * Após compilar, basta apenas executar o comando abaixo:
 	```
-	$ ./lexical-analyzer.out <arquivo de entrada> <arquivo de saída>
+	$ ./parser-analyzer.out <arquivo de entrada> <arquivo de saída>
 	```
